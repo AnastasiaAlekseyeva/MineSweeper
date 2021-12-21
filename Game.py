@@ -2,7 +2,7 @@ import tkinter as tk
 from random import shuffle
 from tkinter.messagebox import showinfo
 
-# пишем свой собственный класс, который наследуется от класса Button из tkinter
+# пишем свой собственный класс, который наследуется от класса Button из tkinter.
 class NewButton(tk.Button):
     def __init__(self, master, x, y, number=0, *args, **kwargs):
         super(NewButton, self).__init__(master, *args, **kwargs)
